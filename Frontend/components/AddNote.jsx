@@ -39,6 +39,8 @@ export function AddNote(){
             >
                 Add Note
             </button>
+
+        <p> Krish Here </p>
         </div>
     );
 }
