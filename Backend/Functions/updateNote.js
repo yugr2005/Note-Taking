@@ -11,7 +11,7 @@ async function updateNote(req,res){
 
     if(noteExist.modifiedCount == 0){
         res.status(404).json({
-            msg : "Note not found"
+            msg : "Please make the changes"
         })
         return;
     }
